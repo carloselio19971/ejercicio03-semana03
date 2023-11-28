@@ -18,7 +18,60 @@
             </ul>
         </nav>
     </header>
-        <h1>Soy el Index</h1>
+        <h1>Formularios</h1>
+
+        <form action="blog.html">
+            <div>
+                <label for="nombre">Ingrese Nombre</label>
+                <input id="nombre" type="text" placeholder="Nombre" required/>
+            </div>
+            <div>
+                <label for="apellido">Ingrese Apellido</label>
+                <input id="apellido" type="text"/ disabled autocomplete="off">
+            </div>
+            <input type="submit" value="Enviar"/>
+            <!-- <button type="submit"> Enviar</button> -->
+            <div>
+                <label for="email">Ingrese Email</label>
+                <input id="email" type="email" required/>
+            </div>
+            <div>
+                <label for="password">Ingrese Password</label>
+                <input id="password" type="password"/ required>
+            </div>
+
+            <div>
+                <label for="number">Ingrese su telefono</label>
+                <input id="number" type="number"/ required>
+            </div>
+
+            <div>
+                <label for="fecha">Ingrese fecha</label>
+                <input id="fecha" type="date"/ required>
+            </div>
+
+            <div>
+                <label for="checkbox">Es mayor de edad</label>
+                <input id="checkbox" type="checkbox"/ required>
+            </div>
+
+            <div>
+              <label form="seleccionado"> Escoge su rango de edad </label>
+               <select name="" id="seleccionado">
+                    <option value="0">Menos de 10 años</option>
+                    <option value="1">Menos de 20 años</option>
+                    <option value="2">Menos de 30 años</option>
+                </select>
+            </div>
+
+            <div>
+                <div>
+                    <label for=""></label>
+                    <textarea  name=""  id="" cols="0" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Enviar"/>
+        </form>
     
 </body>
 </html>

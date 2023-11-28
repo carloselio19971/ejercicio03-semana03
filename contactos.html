@@ -16,7 +16,67 @@
                 <li><a href="/contactos.html">Contactos</a></li>
             </ul>
         </nav>
+
+        <h1>Formulario de Registro de Alumno</h1>
     </header>
-        <h1>Soy Contactos</h1>
+
+        <form action="/">
+            <!--Nombre -->
+            <div>
+              <label for="nombre">Ingres Nombre</label> 
+              <input id="nombre" type="text" required placeholder="Ingrese Nombre" required/> 
+            </div>
+            <!-- Apellido -->
+            <div>
+                <label for="apellido">Ingrese Apellido</label> 
+                <input id="apellido" type="text" required placeholder="Ingrese Apellido" required /> 
+              </div>  
+              <!-- DNI -->
+            <div>
+                <label for="dni">Ingrese DNI</label> 
+                <input id="dni" type="text" required placeholder="Ingrese DNI" required /> 
+              </div> 
+            <!--Correo -->
+            <div>
+                <label for="correo">Ingrese Correo</label> 
+                <input id="correo" type="email" required placeholder="Ingrese Correo" required /> 
+              </div>
+            <!-- Seleccione Sexo -->
+            <div>
+                <label form="sexo"> Escoge su sexo </label>
+                 <select name="" id="sexo">
+                      <option value="0">Masculino</option>
+                      <option value="1">Femenino</option>
+                      <option value="2">Otro</option>
+                  </select>
+              </div>
+              <!--Ingrese fecha de nacimiento  -->
+              <div>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input id="fecha" type="date"/ required>
+            </div>
+            <!-- Selecciones cursos interesados en estuadiar -->
+            <p><b>Selecciones Carreras Interesadas</b></p>
+            <label for="informatica"></label>
+                <input id="informatica" type="checkbox" name="informatica"> Informatica
+                <br>
+              <label for="marketing">
+                <input type="checkbox" id="marketing" name="marketing"  value="marketing"> Marketing 
+              </label>
+              <br>
+              <label for="diseño">
+                <input type="checkbox" id="diseño" name="diseño" value="diseño"> Diseño
+              </label>
+              <br>
+              <label for="otras">
+                <input type="checkbox" id="otras" name="otras" value="otras"> Diseño
+              </label>
+              <br>
+              <br>
+              <input type="submit" value="Enviar"/>
+              <br>
+        </form>
+        <br>
+        <footer>Derechos reservados</footer>
 </body>
 </html>
